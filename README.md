@@ -1,23 +1,16 @@
-# CSS3 Transitions, Animations, and Advanced JavaScript Functions
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Animation with JavaScript and LocalStorage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome Back!</h1>
+    <button id="startButton">Start Animation</button>
+    <div id="box" class="box"></div>
+  </div>
 
-## Objectives
-
-Create smooth CSS transitions and animations.
-Use JavaScript functions for dynamic behavior.
-Implement local storage for data persistence.
-
-## Instructions
-Add CSS animations to elements like buttons or images.
-
->[!NOTE]
-> - Write a JavaScript function that:
-> - Stores and retrieves user preferences using localStorage.
-> - Implements an animation triggered by user actions.
-
-## Tasks
-
-Create a CSS animation.
-Store data in localStorage.
-Apply JavaScript to trigger animations.
-
-Happy Coding! 💻✨
+  <script src="script.js" defer></script>
+</body>
+</html>
