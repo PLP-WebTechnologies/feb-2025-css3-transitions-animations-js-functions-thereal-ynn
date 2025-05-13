@@ -1,0 +1,28 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.container {
+  text-align: center;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  margin: 20px auto;
+  opacity: 0.5;
+  transform: translateX(0);f
+}
+@keyframes fly {
+  0% { transform: translateX(0); opacity: 0; }
+  100% { transform: translateX(150px); opacity: 1; }
+}
+.animate {
+  animation-play-state: running !important;
+}
