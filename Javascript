@@ -1,0 +1,11 @@
+startButton.addEventListener('click', () => {
+  box.classList.toggle('animate');
+  localStorage.setItem('animationStarted', box.classList.contains('animate').toString());
+});
+
+window.onload = () => {
+  const animationStarted = localStorage.getItem('animationStarted');
+  if (animationStarted === 'true') {
+    box.classList.add('animate');
+  }
+};
